@@ -21,7 +21,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.multisim.config=dsds \
     ro.telephony.default_network=9,1
 
-PRODUCT_NAME := aosp_g8142
+PRODUCT_NAME := aosp_g8342
 PRODUCT_DEVICE := poplar
 PRODUCT_MODEL := Xperia XZ1 Dual (AOSP)
 PRODUCT_BRAND := Sony

@@ -59,6 +59,7 @@ PRODUCT_COPY_FILES += \
 
 # Device Init
 PRODUCT_PACKAGES += \
+    fstab.poplar \
     init.recovery.poplar \
     init.poplar \
     ueventd.poplar

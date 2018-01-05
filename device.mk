@@ -16,7 +16,7 @@
 DEVICE_PATH := device/sony/poplar/rootdir
 
 DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay
+    device/sony/poplar/overlay
 
 # Device Specific Permissions
 PRODUCT_COPY_FILES := \

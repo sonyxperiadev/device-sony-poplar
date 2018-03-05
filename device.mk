@@ -65,8 +65,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fstab.poplar \
     init.recovery.poplar \
-    init.poplar \
-    ueventd.poplar
+    init.poplar
 
 # Lights
 PRODUCT_PACKAGES += \

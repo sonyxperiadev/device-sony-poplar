@@ -67,10 +67,6 @@ PRODUCT_PACKAGES += \
     init.recovery.poplar \
     init.poplar
 
-# Lights
-PRODUCT_PACKAGES += \
-    lights.poplar
-
 # Simple PowerHAL
 PRODUCT_PACKAGES += \
     power.poplar

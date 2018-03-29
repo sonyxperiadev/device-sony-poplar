@@ -71,11 +71,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     power.poplar
 
-# Fingerprint HAL
-PRODUCT_PACKAGES += \
-    fingerprintd \
-    fingerprint.poplar
-
 # NFC config
 PRODUCT_PACKAGES += \
     nfc_nci.poplar

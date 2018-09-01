@@ -75,10 +75,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     power.poplar
 
-# NFC config
-PRODUCT_PACKAGES += \
-    nfc_nci.poplar
-
 # Telephony Packages (AOSP)
 PRODUCT_PACKAGES += \
     InCallUI \

@@ -107,6 +107,14 @@ PRODUCT_PROPERTY_OVERRIDES := \
     ro.sf.lcd_density=480 \
     ro.usb.pid_suffix=1F3
 
+# VNDK
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.vndk.version=27
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.product.first_api_level=26 \
+    ro.vendor.vndk.version=27.1.0
+
 # setup dm-verity configs.
 PRODUCT_VENDOR_VERITY_PARTITION := /dev/block/platform/soc/1da4000.ufshc/by-name/vendor
 
